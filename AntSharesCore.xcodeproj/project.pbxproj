@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09490CD7D5BAEBEDBAF8CDEE /* Pods_AntSharesCoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84132003D1F542BCAE5A7146 /* Pods_AntSharesCoreUITests.framework */; };
+		38AF02EC1F10C4FC0080B948 /* NetWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AF02EB1F10C4FC0080B948 /* NetWorking.swift */; };
 		38D580F31F10AFBF001D935A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D580F21F10AFBF001D935A /* AppDelegate.swift */; };
 		38D580F51F10AFBF001D935A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D580F41F10AFBF001D935A /* ViewController.swift */; };
 		38D580F71F10AFBF001D935A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D580F61F10AFBF001D935A /* Assets.xcassets */; };
 		38D580FA1F10AFBF001D935A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D580F81F10AFBF001D935A /* Main.storyboard */; };
 		38D581051F10AFC0001D935A /* AntSharesCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D581041F10AFC0001D935A /* AntSharesCoreTests.swift */; };
 		38D581101F10AFC0001D935A /* AntSharesCoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5810F1F10AFC0001D935A /* AntSharesCoreUITests.swift */; };
+		38D5811F1F10C32B001D935A /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5811E1F10C32B001D935A /* Define.swift */; };
+		58DCAFD5E11CAE378308B5E7 /* Pods_AntSharesCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCAE651E4B31DCE46224F92 /* Pods_AntSharesCore.framework */; };
+		D323D14A6D12E3609A697F90 /* Pods_AntSharesCoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19459DA4A35CDB12728896DC /* Pods_AntSharesCoreTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DAE6224B82EF97C51BF8B2E /* Pods-AntSharesCoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntSharesCoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AntSharesCoreTests/Pods-AntSharesCoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		19459DA4A35CDB12728896DC /* Pods_AntSharesCoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AntSharesCoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD6E86D13D536D242B81890 /* Pods-AntSharesCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntSharesCore.release.xcconfig"; path = "Pods/Target Support Files/Pods-AntSharesCore/Pods-AntSharesCore.release.xcconfig"; sourceTree = "<group>"; };
+		38AF02EB1F10C4FC0080B948 /* NetWorking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorking.swift; sourceTree = "<group>"; };
 		38D580EF1F10AFBF001D935A /* AntSharesCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntSharesCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D580F21F10AFBF001D935A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38D580F41F10AFBF001D935A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +54,13 @@
 		38D5810B1F10AFC0001D935A /* AntSharesCoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntSharesCoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D5810F1F10AFC0001D935A /* AntSharesCoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntSharesCoreUITests.swift; sourceTree = "<group>"; };
 		38D581111F10AFC0001D935A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38D5811E1F10C32B001D935A /* Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		4ECBCF3931F40AFF10BF2713 /* Pods-AntSharesCoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntSharesCoreUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AntSharesCoreUITests/Pods-AntSharesCoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D0665BE1B93E0C674D1ECEC /* Pods-AntSharesCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntSharesCore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AntSharesCore/Pods-AntSharesCore.debug.xcconfig"; sourceTree = "<group>"; };
+		84132003D1F542BCAE5A7146 /* Pods_AntSharesCoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AntSharesCoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		996C9E8D05FB9EFC2AC546C3 /* Pods-AntSharesCoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntSharesCoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AntSharesCoreUITests/Pods-AntSharesCoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D80258550CFDD3B0E76F382C /* Pods-AntSharesCoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntSharesCoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AntSharesCoreTests/Pods-AntSharesCoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBCAE651E4B31DCE46224F92 /* Pods_AntSharesCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AntSharesCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DCAFD5E11CAE378308B5E7 /* Pods_AntSharesCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D323D14A6D12E3609A697F90 /* Pods_AntSharesCoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +84,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09490CD7D5BAEBEDBAF8CDEE /* Pods_AntSharesCoreUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A7955DEB7BE32BAC6531AEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D0665BE1B93E0C674D1ECEC /* Pods-AntSharesCore.debug.xcconfig */,
+				2BD6E86D13D536D242B81890 /* Pods-AntSharesCore.release.xcconfig */,
+				D80258550CFDD3B0E76F382C /* Pods-AntSharesCoreTests.debug.xcconfig */,
+				0DAE6224B82EF97C51BF8B2E /* Pods-AntSharesCoreTests.release.xcconfig */,
+				4ECBCF3931F40AFF10BF2713 /* Pods-AntSharesCoreUITests.debug.xcconfig */,
+				996C9E8D05FB9EFC2AC546C3 /* Pods-AntSharesCoreUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		38AF02EA1F10C4D80080B948 /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				38AF02EB1F10C4FC0080B948 /* NetWorking.swift */,
+			);
+			path = NetWorking;
+			sourceTree = "<group>";
+		};
 		38D580E61F10AFBF001D935A = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +119,8 @@
 				38D581031F10AFC0001D935A /* AntSharesCoreTests */,
 				38D5810E1F10AFC0001D935A /* AntSharesCoreUITests */,
 				38D580F01F10AFBF001D935A /* Products */,
+				2A7955DEB7BE32BAC6531AEA /* Pods */,
+				AE6B1C7F36CDD9522AB15DC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +137,8 @@
 		38D580F11F10AFBF001D935A /* AntSharesCore */ = {
 			isa = PBXGroup;
 			children = (
+				38AF02EA1F10C4D80080B948 /* NetWorking */,
+				38D5811D1F10C312001D935A /* Define */,
 				38D580F21F10AFBF001D935A /* AppDelegate.swift */,
 				38D580F41F10AFBF001D935A /* ViewController.swift */,
 				38D580F61F10AFBF001D935A /* Assets.xcassets */,
@@ -122,6 +166,24 @@
 			path = AntSharesCoreUITests;
 			sourceTree = "<group>";
 		};
+		38D5811D1F10C312001D935A /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				38D5811E1F10C32B001D935A /* Define.swift */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		AE6B1C7F36CDD9522AB15DC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBCAE651E4B31DCE46224F92 /* Pods_AntSharesCore.framework */,
+				19459DA4A35CDB12728896DC /* Pods_AntSharesCoreTests.framework */,
+				84132003D1F542BCAE5A7146 /* Pods_AntSharesCoreUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38D581141F10AFC0001D935A /* Build configuration list for PBXNativeTarget "AntSharesCore" */;
 			buildPhases = (
+				563F08552D178D6D49E9E903 /* [CP] Check Pods Manifest.lock */,
 				38D580EB1F10AFBF001D935A /* Sources */,
 				38D580EC1F10AFBF001D935A /* Frameworks */,
 				38D580ED1F10AFBF001D935A /* Resources */,
+				1EF6820B259F94E36CDDB084 /* [CP] Embed Pods Frameworks */,
+				68288ED5FB50A9E07ED0EF73 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38D581171F10AFC0001D935A /* Build configuration list for PBXNativeTarget "AntSharesCoreTests" */;
 			buildPhases = (
+				9BDE51D8E4C5F81E823B96B7 /* [CP] Check Pods Manifest.lock */,
 				38D580FC1F10AFC0001D935A /* Sources */,
 				38D580FD1F10AFC0001D935A /* Frameworks */,
 				38D580FE1F10AFC0001D935A /* Resources */,
+				EAC242B492F6BE7888BADAF9 /* [CP] Embed Pods Frameworks */,
+				7A1B4448DE19821B51099937 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38D5811A1F10AFC0001D935A /* Build configuration list for PBXNativeTarget "AntSharesCoreUITests" */;
 			buildPhases = (
+				500265A896E8429926B439B3 /* [CP] Check Pods Manifest.lock */,
 				38D581071F10AFC0001D935A /* Sources */,
 				38D581081F10AFC0001D935A /* Frameworks */,
 				38D581091F10AFC0001D935A /* Resources */,
+				34A81F5EE0B763FD792997B5 /* [CP] Embed Pods Frameworks */,
+				7507903996D8FD0A91383CFF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,13 +324,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EF6820B259F94E36CDDB084 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AntSharesCore/Pods-AntSharesCore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34A81F5EE0B763FD792997B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AntSharesCoreUITests/Pods-AntSharesCoreUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		500265A896E8429926B439B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		563F08552D178D6D49E9E903 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		68288ED5FB50A9E07ED0EF73 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AntSharesCore/Pods-AntSharesCore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7507903996D8FD0A91383CFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AntSharesCoreUITests/Pods-AntSharesCoreUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A1B4448DE19821B51099937 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AntSharesCoreTests/Pods-AntSharesCoreTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BDE51D8E4C5F81E823B96B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAC242B492F6BE7888BADAF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AntSharesCoreTests/Pods-AntSharesCoreTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		38D580EB1F10AFBF001D935A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				38D580F51F10AFBF001D935A /* ViewController.swift in Sources */,
+				38D5811F1F10C32B001D935A /* Define.swift in Sources */,
 				38D580F31F10AFBF001D935A /* AppDelegate.swift in Sources */,
+				38AF02EC1F10C4FC0080B948 /* NetWorking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +611,7 @@
 		};
 		38D581151F10AFC0001D935A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D0665BE1B93E0C674D1ECEC /* Pods-AntSharesCore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -414,6 +626,7 @@
 		};
 		38D581161F10AFC0001D935A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD6E86D13D536D242B81890 /* Pods-AntSharesCore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -428,6 +641,7 @@
 		};
 		38D581181F10AFC0001D935A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D80258550CFDD3B0E76F382C /* Pods-AntSharesCoreTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -444,6 +658,7 @@
 		};
 		38D581191F10AFC0001D935A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DAE6224B82EF97C51BF8B2E /* Pods-AntSharesCoreTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +675,7 @@
 		};
 		38D5811B1F10AFC0001D935A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ECBCF3931F40AFF10BF2713 /* Pods-AntSharesCoreUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -475,6 +691,7 @@
 		};
 		38D5811C1F10AFC0001D935A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 996C9E8D05FB9EFC2AC546C3 /* Pods-AntSharesCoreUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -507,6 +724,7 @@
 				38D581161F10AFC0001D935A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38D581171F10AFC0001D935A /* Build configuration list for PBXNativeTarget "AntSharesCoreTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +733,7 @@
 				38D581191F10AFC0001D935A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38D5811A1F10AFC0001D935A /* Build configuration list for PBXNativeTarget "AntSharesCoreUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +742,7 @@
 				38D5811C1F10AFC0001D935A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
