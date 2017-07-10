@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		09490CD7D5BAEBEDBAF8CDEE /* Pods_AntSharesCoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84132003D1F542BCAE5A7146 /* Pods_AntSharesCoreUITests.framework */; };
 		38AF02EC1F10C4FC0080B948 /* NetWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AF02EB1F10C4FC0080B948 /* NetWorking.swift */; };
+		38AF02EE1F11ECF20080B948 /* Wallet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38AF02ED1F11ECF20080B948 /* Wallet.storyboard */; };
+		38AF02F01F11ED0E0080B948 /* Trade.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38AF02EF1F11ED0E0080B948 /* Trade.storyboard */; };
+		38AF02F21F11ED3D0080B948 /* Senior.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38AF02F11F11ED3D0080B948 /* Senior.storyboard */; };
+		38AF02F41F11ED450080B948 /* Help.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38AF02F31F11ED450080B948 /* Help.storyboard */; };
 		38D580F31F10AFBF001D935A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D580F21F10AFBF001D935A /* AppDelegate.swift */; };
 		38D580F51F10AFBF001D935A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D580F41F10AFBF001D935A /* ViewController.swift */; };
 		38D580F71F10AFBF001D935A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D580F61F10AFBF001D935A /* Assets.xcassets */; };
@@ -42,6 +46,10 @@
 		19459DA4A35CDB12728896DC /* Pods_AntSharesCoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AntSharesCoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD6E86D13D536D242B81890 /* Pods-AntSharesCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntSharesCore.release.xcconfig"; path = "Pods/Target Support Files/Pods-AntSharesCore/Pods-AntSharesCore.release.xcconfig"; sourceTree = "<group>"; };
 		38AF02EB1F10C4FC0080B948 /* NetWorking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorking.swift; sourceTree = "<group>"; };
+		38AF02ED1F11ECF20080B948 /* Wallet.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Wallet.storyboard; sourceTree = "<group>"; };
+		38AF02EF1F11ED0E0080B948 /* Trade.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Trade.storyboard; path = ../Trade.storyboard; sourceTree = "<group>"; };
+		38AF02F11F11ED3D0080B948 /* Senior.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Senior.storyboard; sourceTree = "<group>"; };
+		38AF02F31F11ED450080B948 /* Help.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Help.storyboard; sourceTree = "<group>"; };
 		38D580EF1F10AFBF001D935A /* AntSharesCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntSharesCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D580F21F10AFBF001D935A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38D580F41F10AFBF001D935A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +151,10 @@
 				38D580F41F10AFBF001D935A /* ViewController.swift */,
 				38D580F61F10AFBF001D935A /* Assets.xcassets */,
 				38D580F81F10AFBF001D935A /* Main.storyboard */,
+				38AF02ED1F11ECF20080B948 /* Wallet.storyboard */,
+				38AF02EF1F11ED0E0080B948 /* Trade.storyboard */,
+				38AF02F11F11ED3D0080B948 /* Senior.storyboard */,
+				38AF02F31F11ED450080B948 /* Help.storyboard */,
 				38D580FB1F10AFBF001D935A /* Info.plist */,
 			);
 			path = AntSharesCore;
@@ -304,7 +316,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				38D580F71F10AFBF001D935A /* Assets.xcassets in Resources */,
+				38AF02F41F11ED450080B948 /* Help.storyboard in Resources */,
 				38D580FA1F10AFBF001D935A /* Main.storyboard in Resources */,
+				38AF02EE1F11ECF20080B948 /* Wallet.storyboard in Resources */,
+				38AF02F21F11ED3D0080B948 /* Senior.storyboard in Resources */,
+				38AF02F01F11ED0E0080B948 /* Trade.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12118"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--创建钱包数据库-->
+        <scene sceneID="0UN-eS-QJc">
+            <objects>
+                <viewController title="创建钱包数据库" id="Jcd-6t-gYm" sceneMemberID="viewController">
+                    <view key="view" id="eTk-UZ-EK0">
+                        <rect key="frame" x="0.0" y="0.0" width="500" height="150"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PFi-8t-Oby">
+                                <rect key="frame" x="115" y="100" width="280" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="cqd-8O-cgv">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxi-KV-7HZ">
+                                <rect key="frame" x="13" y="103" width="88" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="84" id="Qtm-hW-24K"/>
+                                    <constraint firstAttribute="height" constant="17" id="VDc-tH-kUo"/>
+                                </constraints>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="钱包文件位置:" id="PmL-XT-1dy">
+                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIC-9a-jMH">
+                                <rect key="frame" x="115" y="62" width="280" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="ebI-g2-Z2a">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aS-zE-w9G">
+                                <rect key="frame" x="13" y="67" width="88" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="6xc-aH-Hws"/>
+                                    <constraint firstAttribute="width" constant="84" id="OB3-y3-BG0"/>
+                                </constraints>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="密码:" id="hei-g9-Iig">
+                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rhI-G9-Py5">
+                                <rect key="frame" x="115" y="24" width="280" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="LNV-jg-75w">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJG-6u-0c6">
+                                <rect key="frame" x="13" y="30" width="88" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="84" id="dvj-5g-6fT"/>
+                                    <constraint firstAttribute="height" constant="17" id="qNI-bK-stk"/>
+                                </constraints>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="重复密码:" id="p5n-RD-0Zh">
+                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="R96-85-TTP">
+                                <rect key="frame" x="409" y="96" width="67" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="hC2-0D-bSm"/>
+                                    <constraint firstAttribute="width" constant="55" id="skV-cY-42i"/>
+                                </constraints>
+                                <buttonCell key="cell" type="push" title="浏览" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="4bw-BB-DPD">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
+                                </buttonCell>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="DLS-o1-Ypl">
+                                <rect key="frame" x="409" y="19" width="67" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="6RH-ox-NBD"/>
+                                    <constraint firstAttribute="height" constant="21" id="EjD-XB-BZ2"/>
+                                </constraints>
+                                <buttonCell key="cell" type="push" title="确认" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="dhh-Kw-e9o">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
+                                </buttonCell>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="dxi-KV-7HZ" firstAttribute="leading" secondItem="eTk-UZ-EK0" secondAttribute="leading" constant="15" id="2IB-dJ-PW9"/>
+                            <constraint firstAttribute="bottom" secondItem="DLS-o1-Ypl" secondAttribute="bottom" constant="26" id="51G-9G-EBw"/>
+                            <constraint firstItem="gJG-6u-0c6" firstAttribute="top" secondItem="6aS-zE-w9G" secondAttribute="bottom" constant="20" id="EHv-i4-IP2"/>
+                            <constraint firstItem="dxi-KV-7HZ" firstAttribute="top" secondItem="eTk-UZ-EK0" secondAttribute="top" constant="30" id="FeT-3H-pCy"/>
+                            <constraint firstAttribute="trailing" secondItem="R96-85-TTP" secondAttribute="trailing" constant="30" id="GXh-r4-VGx"/>
+                            <constraint firstItem="gJG-6u-0c6" firstAttribute="leading" secondItem="eTk-UZ-EK0" secondAttribute="leading" constant="15" id="LaO-jf-5a8"/>
+                            <constraint firstItem="6aS-zE-w9G" firstAttribute="top" secondItem="dxi-KV-7HZ" secondAttribute="bottom" constant="19" id="T3i-Xc-pJd"/>
+                            <constraint firstItem="R96-85-TTP" firstAttribute="top" secondItem="eTk-UZ-EK0" secondAttribute="top" constant="26" id="UH3-oZ-PM5"/>
+                            <constraint firstAttribute="trailing" secondItem="DLS-o1-Ypl" secondAttribute="trailing" constant="30" id="cAH-f0-iff"/>
+                            <constraint firstItem="6aS-zE-w9G" firstAttribute="leading" secondItem="eTk-UZ-EK0" secondAttribute="leading" constant="15" id="wg8-dl-BeJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="IDb-7e-XyC" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-162" y="1147"/>
+        </scene>
+    </scenes>
+</document>
